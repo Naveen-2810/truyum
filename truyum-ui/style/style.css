@@ -1,0 +1,196 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+/*-------------- Start of Header--------------*/
+
+header{
+    background-color:#3050db;
+    height: 70px;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.header-title{
+    width: 10%;
+    float: left;
+}
+
+.header-title h1{
+    color: #ffffff;
+    margin: 14px 0 14px 10px;
+    padding-left: 25px;
+    font-weight: 100;
+}
+
+.header-img{
+    width: 20%;
+    float: left;
+}
+
+.header-img img{
+    width: 90px;
+    height: 20px;
+    margin-top: 22px ;
+}
+
+.header-nav{
+    width: 70%;
+    float: left;
+}
+
+.header-nav nav ul{
+    float: right;   
+    margin-top: 20px;
+}
+
+.header-nav nav ul a{
+    color:  #ffffff ;
+    font-size: 20px;
+    font-weight: 100;
+    padding-left: 20px;
+}
+/*-------------- End of Header--------------*/
+
+section{
+   height: 700px;
+   padding-top: 80px;
+}
+
+.section-container{
+    width: 70%;
+    margin: auto;
+}
+
+.section-container h1{
+    font-size: 3.4em;
+    font-weight: 100;
+}
+
+.container-list-lists{
+    width: 100%;
+    font-size: 1.4em;
+}
+
+.container-list-lists thead{
+    letter-spacing: 2px;
+}
+
+.container-list-lists tbody{
+    font-weight: 100;
+}
+
+.table-name{
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.table-price{
+    text-align: right;
+    padding-bottom: 30px;
+    padding-right:14px ;
+}
+
+.table-active{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.table-date{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.table-category{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.table-delivery{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.table-action{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.table-action a{
+    color:black;
+}
+
+/* ------------End of Table Sction ---------------*/
+
+footer{
+    background-color: #a9a9a9;
+    height: 70px;
+}
+
+footer p{
+    padding:26px 20px;
+}
+
+/* ------------End of Footer Sction ---------------*/
+
+.container-list-form{
+    width: 100%;
+}
+
+form label{
+    font-size: 1.4em;
+    font-weight: 100;
+}
+
+#title{
+    width: 100%;
+    height: 24px;
+}
+#price, #dateOfLaunch, #category{
+    height: 24px;
+}
+
+form td{
+    padding-bottom: 24px;
+}
+
+select{
+    width: 70%;
+}
+
+form #submit{
+    border: none;
+    background-color:#3050db ;
+    color: #ffffff;
+    font-size: 1.2em;
+    padding: 18px 42px;
+}
+
+/*-------------- End of Form Table --------------*/
+
+/* Edit menu item status */
+#section-h3{
+    color: #38c26f;
+    letter-spacing: 1.5px;
+}
+
+/* Customer notification ---cart notification */
+.section-notfi-h3{
+    margin: 40px 0;
+    text-align: center;
+    color: #38c26f;
+    letter-spacing: 1.5px;
+}
+
+#cart-empty{
+    color: #b4b8b5 ;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+}

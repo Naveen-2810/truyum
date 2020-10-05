@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header-title">
+                <h1>truYum</h1>
+            </div>
+            <div class="header-img">
+                <img src="images/Logo.jpg" alt="Logo">
+            </div>
+            <div class="header-nav">
+                <nav>
+                    <ul>
+                        <a href="menu-item-list-admin.html">Menu</a>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="section-container">
+            <h1>Edit Menu Item</h1>
+
+            <form onSubmit="return validate()" action="edit-menu-item-status.html" name="edit-form">
+                <table class="container-list-form">
+                    <tr>
+                        <td colspan="4">
+                            <label>Name</label><br>
+                            <input type="text" name="title" id="title">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Price (Rs.) </label><br>
+                            <input type="text" name="price" id="price">
+                        </td>
+                        <td>
+                            <label>Active</label><br>
+                            <input type="radio" name="inStock" id="yes" checked>yes
+                            <input type="radio" name="inStock" id="No">No
+                        </td>
+                        <td>
+                            <label>Date of Launch</label><br>
+                            <input type="date" name="dateOfLaunch" id="dateOfLaunch">
+                        </td>
+                        <td>
+                            <label>Category</label><br>
+                            <select name="category" id="category">
+                                <option value="Select">Select</option>
+                                <option value="Main Course">Main Course</option>
+                                <option value="Starters">Starters</option>
+                                <option value="Dessert">Dessert</option>
+                                <option value="Drinks">Drinks</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="freeDelivery" id="freeDelivery">
+                            <label>Free Delivery</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" name="submit" id="submit" value="Save">
+                        </td>
+                    </tr>
+
+                </table>
+            </form>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2019</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
